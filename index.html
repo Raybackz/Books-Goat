@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Discover and read thousands of eBooks online. Access, practice, and engage with digital content anytime, anywhere.">
+    <title>Books G.O.A.T</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Latest CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="font-sans">
+
+    <header>
+        <!-- Top Bar -->
+        <div class="bg-indigo-900 text-white text-sm">
+            <div class="max-w-7xl mx-auto flex flex-row items-center justify-between px-4 py-3 gap-2">
+                <!-- Left: Phone -->
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91 1234567892</span>
+                </div>
+                <!-- Right: Social Icons -->
+                <div class="flex space-x-4 sm:space-x-6">
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-gray-300"><i class="fab fa-blogger-b"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-5 gap-4">
+            <!-- Logo -->
+            <a href="/" class="flex-shrink-0 text-left">
+                <h1 class="text-lg font-bold">Books G.O.A.T</h1>
+                <p class="text-xs tracking-widest font-semibold">GREATEST OF ALL TIME</p>
+            </a>
+
+            <!-- Search -->
+            <div class="w-full md:w-1/2">
+                <div class="flex bg-gray-100 rounded-full overflow-hidden">
+                    <input type="text" placeholder="Search Books"
+                        class="flex-grow px-4 py-2 text-sm bg-gray-100 focus:outline-none" />
+                    <button class="px-4 text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Account / Cart / Wishlist -->
+            <div class="flex flex-wrap flex-shrink-0 items-center justify-center gap-2 sm:gap-4 text-sm">
+                <a href="#"
+                    class="flex items-center space-x-1 text-indigo-900 hover:text-indigo-700 uppercase font-semibold">
+                    <i class="far fa-user"></i>
+                    <span>Account</span>
+                </a>
+                <span class="text-gray-300">|</span>
+                <a href="#"
+                    class="flex items-center space-x-1 text-indigo-900 hover:text-indigo-700 uppercase font-semibold">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Cart: (0$)</span>
+                </a>
+                <span class="text-gray-300">|</span>
+                <a href="#"
+                    class="flex items-center space-x-1 text-indigo-900 hover:text-indigo-700 uppercase font-semibold">
+                    <i class="far fa-heart"></i>
+                    <span>Wishlist</span>
+                </a>
+            </div>
+
+            <!-- Hamburger Button (Mobile) -->
+            <button id="menu-btn" class="md:hidden text-indigo-900 text-2xl focus:outline-none">
+                <i id="menu-icon" class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 hidden md:block">
+            <hr class="border-gray-200" />
+        </div>
+
+        <!-- Navigation -->
+        <nav id="mobile-menu" class="max-w-7xl mx-auto px-4 py-5 hidden md:block">
+            <ul class="flex flex-col justify-center md:flex-row items-center gap-8 text-sm font-semibold">
+                <li><a href="#" class="text-red-500 uppercase">Home</a></li>
+                <li class="hidden md:block text-gray-300">|</li>
+                <li><a href="#" class="text-gray-800 hover:text-red-500 uppercase">About Us</a></li>
+                <li class="hidden md:block text-gray-300">|</li>
+                <li><a href="#" class="text-gray-800 hover:text-red-500 uppercase">Books</a></li>
+                <li class="hidden md:block text-gray-300">|</li>
+                <li><a href="#" class="text-gray-800 hover:text-red-500 uppercase">New Release</a></li>
+                <li class="hidden md:block text-gray-300">|</li>
+                <li><a href="#" class="text-gray-800 hover:text-red-500 uppercase">Contact Us</a></li>
+                <li class="hidden md:block text-gray-300">|</li>
+                <li><a href="#" class="text-gray-800 hover:text-red-500 uppercase">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <!-- SLIDE 1 -->
+            <div class="swiper-slide">
+                <div class="relative overflow-hidden">
+                    <!-- LEFT side gradient (subtle pale colors -> transparent to right) -->
+                    <div class="absolute inset-0 left-0 w-full lg:w-1/2 left-gradient -z-10"
+                        style="background: linear-gradient(90deg, #eef6ff 0%, #fff7f4 35%, rgba(255,255,255,0) 75%);">
+                    </div>
+
+                    <div
+                        class="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <!-- left text -->
+                        <div class="text-center lg:text-left">
+                            <h1 class="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-indigo-900 mb-4">
+                                Ipsum Dolor Si</h1>
+                            <p class="text-gray-600 mb-6 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
+                                ipsum enim pharetra hac.
+                                Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.
+                            </p>
+
+                            <a href="#"
+                                class="inline-flex items-center px-5 py-3 border border-indigo-900 text-indigo-900 rounded hover:bg-indigo-900 hover:text-white transition">
+                                READ MORE →
+                            </a>
+                        </div>
+
+                        <!-- right stacked books image -->
+                        <div class="flex justify-center lg:justify-end">
+                            <!-- the image you provided — it allows slight overflow to emulate stacked cards -->
+                            <img src="./images/books-banner.png" alt="books"
+                                class="books-img h-auto bg-transparent mix-blend-multiply" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 2 (duplicate structure, different content/image) -->
+            <div class="swiper-slide">
+                <div class="relative overflow-hidden">
+                    <div class="absolute inset-0 left-0 w-full lg:w-1/2 left-gradient -z-10"
+                        style="background: linear-gradient(90deg, #eef6ff 0%, #fff7f4 35%, rgba(255,255,255,0) 75%);">
+                    </div>
+
+                    <div
+                        class="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="text-center lg:text-left">
+                            <h1 class="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-indigo-900 mb-4">
+                                Another Title</h1>
+                            <p class="text-gray-600 mb-6 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
+                                ipsum enim pharetra hac.
+                                Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center px-5 py-3 border border-indigo-900 text-indigo-900 rounded hover:bg-indigo-900 hover:text-white transition">
+                                READ MORE →
+                            </a>
+                        </div>
+
+                        <div class="flex justify-center lg:justify-end">
+                            <img src="./images/books-banner.png" alt="books2"
+                                class="books-img max-w-full bg-transparent mix-blend-multiply h-auto" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE 3 (duplicate structure, different content/image) -->
+            <div class="swiper-slide">
+                <div class="relative overflow-hidden">
+                    <div class="absolute inset-0 left-0 w-full lg:w-1/2 left-gradient -z-10"
+                        style="background: linear-gradient(90deg, #eef6ff 0%, #fff7f4 35%, rgba(255,255,255,0) 75%);">
+                    </div>
+
+                    <div
+                        class="max-w-7xl mx-auto px-6 py-12 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="text-center lg:text-left">
+                            <h1 class="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-indigo-900 mb-4">
+                                Another Title</h1>
+                            <p class="text-gray-600 mb-6 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
+                                ipsum enim pharetra hac.
+                                Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center px-5 py-3 border border-indigo-900 text-indigo-900 rounded hover:bg-indigo-900 hover:text-white transition">
+                                READ MORE →
+                            </a>
+                        </div>
+
+                        <div class="flex justify-center lg:justify-end">
+                            <img src="./images/books-banner.png" alt="books3"
+                                class="books-img max-w-full bg-transparent mix-blend-multiply h-auto" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- pagination -->
+        <div class="max-w-7xl mx-auto relative lg:bottom-[100px]">
+            <div class="swiper-pagination mt-6 lg:left-0 lg:max-w-[50%] lg:text-left p-6"></div>
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <section class="max-w-7xl mx-auto px-6 py-14">
+        <!-- Heading -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mb-4">
+            <!-- TOP LEFT -->
+            <div>
+                <!-- small rule + label -->
+                <div class="flex items-center gap-3">
+                    <span class="inline-block w-6 h-1 bg-orange-400 rounded-sm"></span>
+                    <span class="text-sm text-orange-500 font-medium">Categories</span>
+                </div>
+
+                <!-- main heading -->
+                <h2 class="text-3xl sm:text-4xl md:text-4xl font-bold text-indigo-900 mt-4">
+                    Explore our Top Categories
+                </h2>
+
+                <!-- arrows (left below heading) -->
+                <div class="flex items-center gap-3 mt-8">
+                    <!-- Prev (outline circle) -->
+                    <button id="prevBtn"
+                        class="swiper-button-prev-custom w-10 h-10 flex items-center justify-center border rounded-full bg-orange-500 text-white hover:bg-orange-600 disabled:bg-transparent disabled:text-gray-300 disabled:border-gray-300">
+                        ←
+                    </button>
+                    <button id="nextBtn"
+                        class="swiper-button-next-custom w-10 h-10 flex items-center justify-center border rounded-full bg-orange-500 text-white hover:bg-orange-600 disabled:bg-transparent disabled:text-gray-300 disabled:border-gray-300">
+                        →
+                    </button>
+                </div>
+            </div>
+
+            <!-- TOP RIGHT (paragraph) -->
+            <div class="text-left text-gray-500">
+                <p class="text-base md:text-lg leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim
+                    pharetra hac.
+                    Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu. Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipiscing elit. Sed eu feugiat amet, libero ipsum...
+                </p>
+            </div>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper categorySwiper -mx-4">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="p-4">
+                        <img src="./images/pexels-pixabay-159866.jpg" class="rounded-lg w-full object-cover"
+                            alt="Higher Education" />
+                        <h3 class="mt-4 text-xl font-semibold text-purple-900 text-center">Higher Education</h3>
+                        <p class="mt-2 text-gray-500 text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum
+                            enim pharetra hac.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="p-4">
+                        <img src="./images/pexels-tara-winstead-8386519.jpg" class="rounded-lg w-full object-cover"
+                            alt="Management Books" />
+                        <h3 class="mt-4 text-xl font-semibold text-purple-900 text-center">Management Books</h3>
+                        <p class="mt-2 text-gray-500 text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum
+                            enim pharetra hac.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="p-4">
+                        <img src="./images/pexels-thisisengineering-3862153.jpg" class="rounded-lg w-full object-cover"
+                            alt="Engineering Books" />
+                        <h3 class="mt-4 text-xl font-semibold text-purple-900 text-center">Engineering Books</h3>
+                        <p class="mt-2 text-gray-500 text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum
+                            enim pharetra hac.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="p-4">
+                        <img src="./images/pexels-cottonbro-6889204.jpg" class="rounded-lg w-full object-cover"
+                            alt="Technology & Innovation Books" />
+                        <h3 class="mt-4 text-xl font-semibold text-purple-900 text-center">Technology & Innovation Books
+                        </h3>
+                        <p class="mt-2 text-gray-500 text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum
+                            enim pharetra hac.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <div class="p-4">
+                        <img src="./images/pexels-mikhail-nilov-8851546.jpg" class="rounded-lg w-full object-cover"
+                            alt="Science & Research Books" />
+                        <h3 class="mt-4 text-xl font-semibold text-purple-900 text-center">Science & Research Books</h3>
+                        <p class="mt-2 text-gray-500 text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum
+                            enim pharetra hac.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- View More Button -->
+        <div class="text-center mt-6">
+            <button class="border border-purple-900 text-purple-900 px-6 py-2 rounded-lg hover:bg-purple-50">
+                VIEW MORE →
+            </button>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="bg-gradient-to-r from-pink-50 to-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-6 items-center">
+
+                <!-- Left Content -->
+                <div class="px-6 py-12">
+                    <!-- Category label -->
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="inline-block w-6 h-[2px] bg-red-500 rounded"></span>
+                        <span class="text-sm font-medium text-red-500">ebook</span>
+                    </div>
+
+                    <!-- Heading -->
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 leading-snug">
+                        Access, Read, Practice &amp; Engage with Digital Content (eBook)
+                    </h2>
+
+                    <!-- Paragraph -->
+                    <p class="mt-4 text-gray-600 leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim
+                        pharetra hac.
+                        Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+
+                    <!-- Email Form -->
+                    <form class="mt-6 flex flex-col sm:flex-row sm:items-center sm:gap-0 gap-3 max-w-lg">
+                        <input type="email" placeholder="Enter Your Email Address"
+                            class="flex-1 px-4 py-3 rounded-lg sm:rounded-l-lg sm:rounded-r-none border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400 text-gray-700 placeholder-gray-400">
+                        <button type="submit"
+                            class="px-6 py-3 bg-orange-500 text-white rounded-lg sm:rounded-l-none sm:rounded-r-lg hover:bg-orange-600 transition">
+                            Login
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right Image -->
+                <div class="flex justify-center md:justify-end px-6">
+                    <img src="./images/pexels-caio-46274.jpg" alt="Books"
+                        class="max-w-full w-full max-h-[450px] object-cover">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <!-- Section Heading -->
+            <div class="text-center mb-8">
+                <p class="text-gray-500 uppercase tracking-widest text-sm">Some Quality Items</p>
+                <div class="flex items-center gap-2 sm:gap-6">
+                    <span class="inline-block w-full h-[2px] bg-gray-200 rounded"></span>
+                    <h2 class="text-3xl font-bold text-indigo-900 flex-shrink-0">New Release Books</h2>
+                    <span class="inline-block w-full h-[2px] bg-gray-200 rounded"></span>
+                </div>
+            </div>
+
+            <!-- Swiper Container -->
+            <div class="relative">
+                <div class="swiper bookSwiper -mx-2">
+                    <div class="swiper-wrapper">
+                        <!-- Card 1 -->
+                        <div class="swiper-slide p-2">
+                            <div class="bg-white p-8 rounded-lg text-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                                              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+                                <div class="relative">
+                                    <img src="./images/New-release-book/managingyourpeacecoverpic.webp"
+                                        alt="Simple Way Of Piece Life"
+                                        class="mx-auto rounded-sm shadow-lg object-cover object-[center_top] h-[300px] w-full">
+                                    <button
+                                        class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-orange-600 text-white whitespace-nowrap px-6 py-2 text-sm font-medium w-[110%]">ADD
+                                        TO CART</button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h3 class="mt-4 text-indigo-900 font-semibold">Simple Way Of Piece Life</h3>
+                                <p class="text-gray-500 text-sm">Armor Ramsey</p>
+                                <p class="text-red-500 font-semibold">$ 40.00</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="swiper-slide p-2 group">
+                            <div class="bg-white p-8 rounded-lg text-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                                              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+                                <div class="relative">
+                                    <img src="./images/New-release-book/desert.webp" alt="Great Travel At Desert"
+                                        class="mx-auto rounded-sm shadow-lg object-cover object-[center_top] h-[300px] w-full">
+                                    <button
+                                        class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-orange-600 text-white px-6 py-2 text-sm font-medium w-[110%] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                                        ADD TO CART
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="mt-4 text-indigo-900 font-semibold">Great Travel At Desert</h3>
+                                <p class="text-gray-500 text-sm">Sanchit Howdy</p>
+                                <p class="text-red-500 font-semibold">$ 38.00</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="swiper-slide p-2 group">
+                            <div class="bg-white p-8 rounded-lg text-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                                              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+                                <div class="relative">
+                                    <img src="./images/New-release-book/scarlett.webp" alt="The Lady Beauty Scarlett"
+                                        class="mx-auto rounded-sm shadow-lg object-cover object-[center_top] h-[300px] w-full">
+                                    <button
+                                        class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-orange-600 text-white px-6 py-2 text-sm font-medium w-[110%] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                                        ADD TO CART
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h3 class="mt-4 text-indigo-900 font-semibold">The Lady Beauty Scarlett</h3>
+                                <p class="text-gray-500 text-sm">Arthur Doyle</p>
+                                <p class="text-red-500 font-semibold">$ 45.00</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="swiper-slide p-2 group">
+                            <div class="bg-white p-8 rounded-lg text-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                                              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+                                <div class="relative">
+                                    <img src="./images/New-release-book/once-upon-a-time.jpg" alt="Once Upon a time"
+                                        class="mx-auto rounded-sm shadow-lg object-cover object-[center_top] h-[300px] w-full">
+                                    <button
+                                        class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-orange-600 text-white px-6 py-2 text-sm font-medium w-[110%] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                                        ADD TO CART
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h3 class="mt-4 text-indigo-900 font-semibold">Once Upon A Time</h3>
+                                <p class="text-gray-500 text-sm">Klien Marry</p>
+                                <p class="text-red-500 font-semibold">$ 35.00</p>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="swiper-slide p-2 group">
+                            <div class="bg-white p-8 rounded-lg text-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                                              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+                                <div class="relative">
+                                    <img src="./images/New-release-book/blueprint-of-success.jpg"
+                                        alt="Blueprint of Success"
+                                        class="mx-auto rounded-sm shadow-lg object-cover object-[center_top] h-[300px] w-full">
+                                    <button
+                                        class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-orange-600 text-white px-6 py-2 text-sm font-medium w-[110%] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                                        ADD TO CART
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h3 class="mt-4 text-indigo-900 font-semibold">Blueprints of Success</h3>
+                                <p class="text-gray-500 text-sm">Isabella Morris</p>
+                                <p class="text-red-500 font-semibold">$ 40.00</p>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="swiper-slide p-2 group">
+                            <div class="bg-white p-8 rounded-lg text-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                                              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+                                <div class="relative">
+                                    <img src="./images/New-release-book/mind-over-mindset.jpg"
+                                        alt="Mind Over Management"
+                                        class="mx-auto rounded-sm shadow-lg object-cover object-[center_top] h-[300px] w-full">
+                                    <button
+                                        class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-orange-600 text-white px-6 py-2 text-sm font-medium w-[110%] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                                        ADD TO CART
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h3 class="mt-4 text-indigo-900 font-semibold">Mind Over Management</h3>
+                                <p class="text-gray-500 text-sm">Clara Reynolds</p>
+                                <p class="text-red-500 font-semibold">$ 30.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="inline-block w-full h-[2px] bg-gray-200 rounded mt-8"></span>
+
+                <div class="flex flex-wrap items-center gap-4 mt-6 justify-center relative sm:gap-0 sm:flex-nowrap">
+                    <!-- Pagination -->
+                    <div class="swiper-pagination newrelease-pagination !static"></div>
+
+                    <!-- View All Products -->
+                    <div class="text-right sm:absolute sm:right-0 z-10">
+                        <a href="#" class="text-red-500 font-semibold hover:underline">View All Products →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="flex items-center justify-center bg-gradient-to-r from-pink-50 to-white">
+        <div class="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-8 items-center px-6 py-14">
+            <!-- Book Image -->
+            <div class="flex justify-center">
+                <div class="p-3 bg-white">
+                    <img src="./images/birds-gonna-happy.jpg" alt="Birds gonna be happy"
+                        class="w-full max-w-sm shadow-[rgba(50,50,93,0.25)_0px_2px_5px_-1px,rgba(0,0,0,0.3)_0px_1px_3px_-1px] h-[450px] object-cover">
+                </div>
+            </div>
+
+            <!-- Text Content -->
+            <div class="space-y-4 text-center md:text-left">
+                <h2 class="text-4xl font-bold text-purple-800">Featured Book</h2>
+                <div class="h-0.5 w-12 bg-orange-500 mx-auto md:mx-0"></div>
+
+                <p class="text-sm uppercase tracking-wider text-gray-500">By Timbur Hood</p>
+
+                <h2 class="text-2xl font-semibold text-purple-800">Birds Gonna Be Happy</h2>
+
+                <p class="text-gray-500 leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim
+                    pharetra
+                    hac.
+                </p>
+
+                <p class="text-red-500 font-bold text-lg">$ 45.00</p>
+
+                <button
+                    class="mt-4 px-6 py-2 border border-purple-800 text-purple-800 rounded hover:bg-purple-800 hover:text-white transition">
+                    View More →
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section class="max-w-7xl mx-auto px-6">
+        <div class="book-offer-slider swiper my-14 px-5 bg-pink-50 rounded-2xl py-5">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="p-6 md:p-10 flex flex-col md:flex-row items-center gap-8">
+                        <!-- Left Content -->
+                        <div class="flex-1 space-y-4 text-center md:text-left">
+                            <h2 class="text-2xl md:text-3xl font-extrabold text-purple-800">
+                                All books are 50% off now! <br> Don't miss such a deal!
+                            </h2>
+                            <p class="text-gray-500 max-w-md mx-auto md:mx-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
+                                ipsum
+                                enim pharetra hac.
+                            </p>
+
+                            <!-- Countdown -->
+                            <div class="flex justify-center md:justify-start gap-6 font-bold">
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">768</p>
+                                    <p class="text-gray-600 text-sm uppercase">Days</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">01</p>
+                                    <p class="text-gray-600 text-sm uppercase">Hour</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">27</p>
+                                    <p class="text-gray-600 text-sm uppercase">Min</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">55</p>
+                                    <p class="text-gray-600 text-sm uppercase">Sec</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Image -->
+                        <div class="flex-1 flex justify-center">
+                            <img src="./images/books-sec-6-img-removebg-preview.png" alt="Books"
+                                class="max-w-xs w-full object-cover bg-transparent mix-blend-multiply">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="p-6 md:p-10 flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1 space-y-4 text-center md:text-left">
+                            <h2 class="text-2xl md:text-3xl font-extrabold text-purple-800">
+                                New arrivals are here! <br> Grab them with 30% discount!
+                            </h2>
+                            <p class="text-gray-500 max-w-md mx-auto md:mx-0">
+                                Discover the latest bestsellers and fresh reads that you'll love.
+                            </p>
+                            <div class="flex justify-center md:justify-start gap-6 font-bold">
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">120</p>
+                                    <p class="text-gray-600 text-sm uppercase">Days</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">14</p>
+                                    <p class="text-gray-600 text-sm uppercase">Hour</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">42</p>
+                                    <p class="text-gray-600 text-sm uppercase">Min</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-red-500 text-2xl">05</p>
+                                    <p class="text-gray-600 text-sm uppercase">Sec</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 flex justify-center">
+                            <img src="./images/books-sec6-image2.png" alt="Books"
+                                class="max-w-xs w-full object-cover bg-transparent mix-blend-multiply">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pagination -->
+            <div class="book-offer-pagination flex justify-center md:justify-start mb-4 px-6 md:px-10 md:max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7 -->
+    <section class="border-t border-b border-gray-300 bg-[#f8fbfa] py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8 items-center max-w-5xl mx-auto">
+
+                <!-- Left: Heading -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-black leading-snug">
+                        Subscribe To <br /> Our Newsletter
+                    </h2>
+                </div>
+
+                <!-- Right: Description & Form -->
+                <div>
+                    <p class="text-gray-500 mb-6 leading-relaxed">
+                        Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet,
+                        consectetur. Elit adipiscing enim pharetra hac.
+                    </p>
+
+                    <div class="flex items-center border-b border-gray-400 pb-2">
+                        <input type="email" placeholder="Enter Your Email Address Here"
+                            class="w-full outline-none placeholder-gray-400 bg-transparent" />
+                        <button class="text-red-500 font-semibold flex items-center gap-1 hover:text-red-600">
+                            SEND
+                            <i class="fa-regular fa-paper-plane rotate-12"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8 -->
+    <section class="py-16 px-6 max-w-7xl mx-auto">
+        <h2 class="text-center text-2xl font-semibold text-gray-800 mb-8">Read our many blogs</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Card 1 -->
+            <div class="relative rounded-lg overflow-hidden group">
+                <img src="./images//pexels-shkrabaanthony-7005786.jpg" alt="Blog 1" class="w-full h-80 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4 transition-all duration-500">
+                    <h3 class="text-white font-bold text-lg">Learn about this week's top author</h3>
+                    <p class="text-gray-300 text-sm">Jump start your book reading by quickly check through the popular
+                        book categories...</p>
+                </div>
+                <div
+                    class="absolute inset-0 bg-black/50 flex items-center justify-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                    <a href="#" class="text-white border border-white px-4 py-2">Read more</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="relative rounded-lg overflow-hidden group">
+                <img src="./images/pexels-cottonbro-5961887.jpg" alt="Blog 2" class="w-full h-80 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4 transition-all duration-500">
+                    <h3 class="text-white font-bold text-lg">Why we celebrate readers</h3>
+                    <p class="text-gray-300 text-sm">Jump start your book reading by quickly check through the popular
+                        book categories...</p>
+                </div>
+                <div
+                    class="absolute inset-0 bg-black/50 flex items-center justify-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                    <a href="#" class="text-white border border-white px-4 py-2">Read more</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="relative rounded-lg overflow-hidden group">
+                <img src="./images/pexels-olly-3819781.jpg" alt="Blog 3" class="w-full h-80 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4 transition-all duration-500">
+                    <h3 class="text-white font-bold text-lg">Toddlers can also read</h3>
+                    <p class="text-gray-300 text-sm">Jump start your book reading by quickly check through the popular
+                        book categories...</p>
+                </div>
+                <div
+                    class="absolute inset-0 bg-black/50 flex items-center justify-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                    <a href="#" class="text-white border border-white px-4 py-2">Read more</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="relative rounded-lg overflow-hidden group">
+                <img src="./images/pexels-kokyo-k-244418001-12851703.jpg" alt="Blog 4" class="w-full h-80 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4 transition-all duration-500">
+                    <h3 class="text-white font-bold text-lg">Get started on your game</h3>
+                    <p class="text-gray-300 text-sm">Jump start your book reading by quickly check through the popular
+                        book categories...</p>
+                </div>
+                <div
+                    class="absolute inset-0 bg-black/50 flex items-center justify-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                    <a href="#" class="text-white border border-white px-4 py-2">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-[#fef2f2] to-[#fff9f2] py-12">
+        <!-- main container: max-width 7xl -->
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <!-- LEFT: Logo + About + Socials -->
+            <div>
+                <a href="/" class="inline-block mb-6">
+                    <h1 class="text-2xl font-bold">Books G.O.A.T</h1>
+                    <p class="text-xs tracking-widest font-semibold">GREATEST OF ALL TIME</p>
+                </a>
+
+                <p class="text-gray-600 mb-6 max-w-sm">
+                    Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <div class="flex items-center space-x-3">
+                    <a href="#"
+                        class="bg-[#ff6b4a] text-white p-3 w-12 h-12 text-center rounded-full shadow hover:scale-105 transform transition">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="#"
+                        class="bg-[#ff6b4a] text-white p-3 w-12 h-12 text-center rounded-full shadow hover:scale-105 transform transition">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="#"
+                        class="bg-[#ff6b4a] text-white p-3 w-12 h-12 text-center rounded-full shadow hover:scale-105 transform transition">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#"
+                        class="bg-[#ff6b4a] text-white p-3 w-12 h-12 text-center rounded-full shadow hover:scale-105 transform transition">
+                        <i class="fab fa-youtube text-xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- MIDDLE: Company links -->
+            <div>
+                <h3 class="text-lg font-bold uppercase mb-4 text-[#ff6b4a]">Company</h3>
+                <ul class="space-y-3 font-semibold">
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">Home</a>
+                    </li>
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">About
+                            Us</a></li>
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">Books</a>
+                    </li>
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">Ebooks</a>
+                    </li>
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">New
+                            Release</a></li>
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">Contact
+                            Us</a></li>
+                    <li><a href="#"
+                            class="uppercase text-gray-800 hover:text-[#ff6b4a] hover:font-semibold transition">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- RIGHT: Latest news -->
+            <div>
+                <h3 class="text-lg font-bold uppercase mb-4 text-[#ff6b4a]">Latest News</h3>
+
+                <div class="space-y-6">
+                    <!-- item 1 -->
+                    <a href="#" class="flex items-start space-x-3">
+                        <img src="./images/man-looking-stock-market-news-computer.jpg" alt="news 1"
+                            class="w-20 h-20 rounded object-cover">
+                        <div>
+                            <h4 class="text-[#ff6b4a] font-semibold">Nostrud exercitation</h4>
+                            <p class="text-gray-600 text-sm max-w-xs">Nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <div class="mt-2 flex items-center text-xs">
+                                <span class="text-yellow-400 mr-2">●</span>
+                                <span class="text-gray-400">15 April 2022</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- item 2 -->
+                    <a href="#" class="flex items-start space-x-3">
+                        <img src="./images/worker-reading-news-with-tablet.jpg" alt="news 2"
+                            class="w-20 h-20 rounded object-cover">
+                        <div>
+                            <h4 class="text-[#ff6b4a] font-semibold">Nostrud exercitation</h4>
+                            <p class="text-gray-600 text-sm max-w-xs">Nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <div class="mt-2 flex items-center text-xs">
+                                <span class="text-yellow-400 mr-2">●</span>
+                                <span class="text-gray-400">15 April 2022</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- bottom bar (also inside max-w-7xl) -->
+        <div class="max-w-7xl mx-auto px-4 mt-10 pt-6">
+            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                <p class="text-gray-600 mb-4 md:mb-0 font-semibold">© 2025 BooksGoat. All Rights Reserved.</p>
+
+                <div class="flex items-center space-x-3 font-semibold">
+                    <a href="#" class="text-[#ff6b4a] hover:underline">Privacy</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="#" class="text-gray-800 hover:underline">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
